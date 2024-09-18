@@ -1,0 +1,119 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f8f5f0;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.principal {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 20px;  
+}  
+
+.princi2 {  
+    width: 70%;  
+}  
+
+.princi2 h1 {  
+    font-size: 2em;  
+    margin-bottom: 20px;  
+}  
+
+.desserts-grid {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 20px;  
+}  
+
+.dessert-card {  
+    background-color: white;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    overflow: hidden;  
+    text-align: center; 
+    position: relative;
+}  
+
+.dessert-card img {  
+    width: 100%;  
+    height: auto;  
+}  
+
+.dessert-info {  
+    padding: 15px;  
+}  
+
+.dessert-info h2 {  
+    font-size: 1.2em;  
+    margin: 10px 0;
+   
+}  
+
+.dessert-info p {  
+    font-size: 1em;  
+    color: #555;  
+}  
+
+.dessert-info button {  
+    background-color: white ;  
+    color: rgb(18, 16, 16);  
+    border: 1px solid;  
+    border-radius: 20px;  
+    padding: 10px 20px;  
+    cursor: pointer;  
+    font-size: 1em; 
+}  
+
+.dessert-info button:hover {  
+    background-color: #ff4a3d;  
+}  
+
+.cart-section {  
+    width: 25%;  
+    background-color: white;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    padding: 20px;  
+    margin: 20px; 
+    height: 300px;
+    margin-right: 20px;
+    position: relative;
+}  
+
+.cart-section h2 {  
+    font-size: 1.5em;  
+    color: #ff6f61;  
+}  
+
+.cart-section img {  
+    width: 100px;  
+    height: auto;  
+    margin: 20px 0;  
+}  
+
+.cart-section p {  
+    font-size: 1em;  
+    color: #555;
+    text-align: center;
+
+}
+.cart-section img{
+    max-width: 100%; /* Assure que l'image ne dépasse pas la largeur de la div */  
+    height: auto;
+    margin-left: 140px;
+
+}
+.addtocart{
+    position: relative;  
+    bottom: 10px;  
+    left: 0%;
+    top: 10%;  
+    transform: translateX(-50%); 
+    transform: translateY(-70%); 
+}
+
+.addtocart .icon {  
+    width: 15px; 
+    height: auto;  
+}  
